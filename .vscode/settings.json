@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "d:\\Anoop\\Exp\\Repos\\py\\a-study-py-typespeed\\venv\\Scripts\\python.exe"
+    "python.pythonPath": "d:\\Anoop\\Exp\\Repos\\py\\a-study-py-typespeed\\venv\\Scripts\\python.exe",
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=pygame",  // The extension is "lxml" not "1xml",
+        "--errors-only"
+    ]
 }
